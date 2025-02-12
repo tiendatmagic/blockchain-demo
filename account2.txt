@@ -1,0 +1,7 @@
+Public address of the key:   0xD6B7E67ed5B901Ea0EF33888a272720EC000a8b4
+Path of the secret key file: data\keystore\UTC--2025-02-11T04-03-39.880461800Z--d6b7e67ed5b901ea0ef33888a272720ec000a8b4
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!

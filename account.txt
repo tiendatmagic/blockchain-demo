@@ -1,0 +1,20 @@
+
+Public address of the key:   0xC0E300Ad5aE1881CF00D2089d569bAF77b9E0d97
+Path of the secret key file: data\keystore\UTC--2025-02-11T04-03-11.941279900Z--c0e300ad5ae1881cf00d2089d569baf77b9e0d97
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+enode://f24fea380bc10b9d21576634ee0f752c82882fccaee4990c40b16aeb039952da1fe6e4280d07811500ab9f2ca6fd933f0cd493ef361725119ae49f6d1d6183d8@192.168.1.68:0?discport=30301
+
+geth --datadir "./data"  --port 30304 --bootnodes enode://f24fea380bc10b9d21576634ee0f752c82882fccaee4990c40b16aeb039952da1fe6e4280d07811500ab9f2ca6fd933f0cd493ef361725119ae49f6d1d6183d8@192.168.1.68:0?discport=30301 --authrpc.port 8547 --ipcdisable --allow-insecure-unlock  --http --http.corsdomain="https://remix.ethereum.org" --http.api web3,eth,debug,admin,personal,net --networkid 12345678 --unlock 0x83B4F0D6EA0a3A981d35215a81466aC03845D10C --password password.txt  --mine --miner.etherbase=0x83B4F0D6EA0a3A981d35215a81466aC03845D10C
+
+geth --datadir "./data"  --port 30306 --bootnodes enode://f24fea380bc10b9d21576634ee0f752c82882fccaee4990c40b16aeb039952da1fe6e4280d07811500ab9f2ca6fd933f0cd493ef361725119ae49f6d1d6183d8@192.168.1.68:0?discport=30301 -authrpc.port 8546 --networkid 12345678 --unlock 0x0BC5276bfbd09B5A73c53d6BfCACd1827De06E40 --password password.txt
+
+
+
+
+
+geth --datadir "./data"  --port 30306 --bootnodes enode://f24fea380bc10b9d21576634ee0f752c82882fccaee4990c40b16aeb039952da1fe6e4280d07811500ab9f2ca6fd933f0cd493ef361725119ae49f6d1d6183d8@192.168.1.68:0?discport=30301 --authrpc.port 8546 --ipcdisable --allow-insecure-unlock  --http --http.corsdomain="https://remix.ethereum.org" --http.api web3,eth,debug,admin,personal,net --networkid 12345678 --unlock 0x0BC5276bfbd09B5A73c53d6BfCACd1827De06E40 --password password.txt  --mine --miner.etherbase=0x0BC5276bfbd09B5A73c53d6BfCACd1827De06E40
